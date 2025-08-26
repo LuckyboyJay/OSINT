@@ -10,12 +10,12 @@ link to the challenge: https://tryhackme.com/room/ohsint
 image link: https://tryhackme.com/room/ohsint?taskNo=1
 
 # Questions given to be answered
-1: What is this user's avatar of?/
-2: What is the SSID of the WAP he connected to?/
-3: What is his personal email address?/
-4: What site did you find his email address on?/
-5: Where has he gone on holiday?/
-6: What is the person's password?/
+1: What is this user's avatar of?\
+2: What is the SSID of the WAP he connected to?\
+3: What is his personal email address?\
+4: What site did you find his email address on?\
+5: Where has he gone on holiday?\
+6: What is the person's password?\
 
 # 
 
