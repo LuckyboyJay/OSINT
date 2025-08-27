@@ -17,5 +17,8 @@ image link: https://tryhackme.com/room/ohsint?taskNo=1
 5: Where has he gone on holiday?\
 6: What is the person's password?\
 
-# 
+# Solutions and walkthrough
+for each questions i'll be giving answers with graphical examples of how i go to the answers
 
+# Attacking the problem
+first of all i obtained the task file, which
