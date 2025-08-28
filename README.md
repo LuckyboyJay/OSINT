@@ -27,4 +27,15 @@ the problem is hidden within this seemingly empty image file.\
 Now you might want to ask; what exactly are we looking for? by perusing the metadata of this image file, we will find the needed infomation to get what we're looking for\
 Another question would be; How do we get this metadata? in OSINT we have different tools for metadata extraction. tools like: Exiftool, Geosetter, PhotoDNA etc. for this challenge, we'll be
 using the Exiftool (that has already been preinstalled in my kali linux terminal).\
-By using exiftool we will get the metadata
+By using exiftool we will get the metadata; https://github.com/LuckyboyJay/OSINT/blob/503ca3384841f27b969d385776c0f3c2ca0cd7ef/1.png \
+The information gotten from the metadata will be helpfull in solving this challenge
+
+# Question 1: What is this user's avatar of?
+from the information gotten from the metadata, we know this image file is copyrighted to the name " Owoodflint ", a simple google search of the name would bring another list of information that would
+be helpfull in answering this question and the rest that follows.\
+searching the name brings out a list of information that includes; the owners X handle, wordpress page and github account. https://github.com/LuckyboyJay/OSINT/blob/840550dd8544bb750bc2b90d9fe4b766daf328d5/2.png \
+Checking his X(formerly twitter) would automatically show us his profile picture. https://github.com/LuckyboyJay/OSINT/blob/50081a3fcc034c67bbda80970ddd1412b827bb04/3.png this shows his profile in detail, which
+consist of his profile picture, bio and some few tweet he made \
+This qay we've answered the first question. Ans CAT
+
+# Question 2: What is the SSID of the WAP he connected to?
