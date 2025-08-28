@@ -48,7 +48,25 @@ With the help of WIGLE, the SSID is gotten to UnileverWIFI
 
 # Question 3: What is his personal email address?
 as aforestated, the information gotten from the metadata does'nt include obvious answeres for our challenge. we use information from the metadata to find answeres to our question. Now, to tackle this, we need to go through what we got from
-searching his copyright name " Owoodflint " on  google. Going through his github, in one of his repository, a readme.md file is attached that has his email amd other information clearly stated there for our convenience.
+searching his copyright name " Owoodflint " on  google. Going through his github, in one of his repository, a readme.md file is attached that has his email amd other information clearly stated there for our convenience.\
+his email Owoodflint@gmail.com\
+https://github.com/LuckyboyJay/OSINT/blob/2e8f6fb0087b0fdc3dab8ab2116892cc1034180a/8.png\
+
+# Question 4: What site did you find his email address on?
+The email address was found on Github
+
+# Question 5: Where has he gone on holiday?
+From the information gotten from his Github and also with the help of WIGLE.net we know he esides in London, but there was no mention of where he went on holiday on these sites, also going through his X profile
+has proved futile. the only page/site we've yet to check out is his Wordpress blog. investigating his wordpress blog indicates that he is currently in the state of NewYork for his vacation\
+https://github.com/LuckyboyJay/OSINT/blob/328b5b879ea3a9e8b58e4612412984dfa91f80e2/9.png
+
+# Question 6: What is the person's password?
+in all our ivestigations, this would seem to be the most difivult, because people usually do not leave their passwords out in the open, because it would put them at rist of their personal information to be stollen, but with the help of osint,
+we'll try our best to get this right too. going through his public pages on X, github and wordpress did'nt seeem to bring out anything, but from experience, it is always advisable to check out the source code for all web pages when running an investigation just like this. futher inspection on the source code of the wordpress site shows that his password was hidden in a line of code.\
+https://github.com/LuckyboyJay/OSINT/blob/735cb3f06e08f4c34a8f3949f3d30015f90667d4/10.png\
+this shows that the password was hidden in plainsight and highlighting the web page would have also shown us the password\
+https://github.com/LuckyboyJay/OSINT/blob/33664eef8dac94b54f8e3275dac0f18b46e7f853/11.png
+
 
 
 
