@@ -34,8 +34,43 @@ The information gotten from the metadata will be helpfull in solving this challe
 from the information gotten from the metadata, we know this image file is copyrighted to the name " Owoodflint ", a simple google search of the name would bring another list of information that would
 be helpfull in answering this question and the rest that follows.\
 searching the name brings out a list of information that includes; the owners X handle, wordpress page and github account. https://github.com/LuckyboyJay/OSINT/blob/840550dd8544bb750bc2b90d9fe4b766daf328d5/2.png \
-Checking his X(formerly twitter) would automatically show us his profile picture. https://github.com/LuckyboyJay/OSINT/blob/50081a3fcc034c67bbda80970ddd1412b827bb04/3.png this shows his profile in detail, which
-consist of his profile picture, bio and some few tweet he made \
-This qay we've answered the first question. Ans CAT
+Checking his X(formerly twitter) would automatically show us his profile picture. https://github.com/LuckyboyJay/OSINT/blob/50081a3fcc034c67bbda80970ddd1412b827bb04/3.png this shows his profile in detail, which consist of his profile picture, bio and some few tweet he made \
+This way we've answered the first question. CAT
 
 # Question 2: What is the SSID of the WAP he connected to?
+To answer this question we need to know what SSID means. SSID (Service Set Identifier)is simply the name given to a Wi-Fi network, it is a label that tells you which Wi-Fi/network you're connecting to.\
+from the information gotten from the metadata, there's no mention of an SSID, neither is it writeen on his  X page, github or wordpress page. but we do find a BSSID (Basic Service Set Identifier), while an SSID is
+a Wi-Fi's name, BSSID is a Wi-Fi's router ID\
+You can use BSSID to get a routers SSID and with the help of WIGLE.net (Users around the world use WiGLE to scan Wi-Fi networks and even cell towers logging details like network names (SSIDs), unique identifiers (BSSIDs), GPS location, and encryption status. All this gets uploaded into the WiGLE database)\
+https://github.com/LuckyboyJay/OSINT/blob/1a1aad8e7990ccabfb78fb4ec3016e94b863788c/6.png \
+https://github.com/LuckyboyJay/OSINT/blob/1a1aad8e7990ccabfb78fb4ec3016e94b863788c/7.png \
+With the help of WIGLE, the SSID is gotten to UnileverWIFI
+
+# Question 3: What is his personal email address?
+as aforestated, the information gotten from the metadata does'nt include obvious answeres for our challenge. we use information from the metadata to find answeres to our question. Now, to tackle this, we need to go through what we got from
+searching his copyright name " Owoodflint " on  google. Going through his github, in one of his repository, a readme.md file is attached that has his email amd other information clearly stated there for our convenience.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
