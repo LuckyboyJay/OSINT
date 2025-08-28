@@ -22,4 +22,8 @@ for each questions i'll be giving answers with graphical examples of how i go to
 
 # Attacking the problem
 first of all i obtained the task file: https://github.com/LuckyboyJay/OSINT/blob/339a6b28a5680f4ec8dba3f422bd1deb2eb10e8b/ohsint.jpg \
-as you can see this image is a wallpaper from the windows XP with not much to see.
+if you tap the above link you will see that the image is a wallpaper from the windows XP with not much to see. but the information needed to solve
+the problem is hidden within this seemingly empty image file.\
+Now you might waht to ask; what exactly are we looking for? by perusing the metadata of this image file, we will find the needed infomation to get what we're looking for\
+Another question would be; How do we get this metadata? in OSINT we have tools for metadata extraction. tools like: Exiftool, Geosetter, PhotoDNA etc. for this challenge, we'll be
+using the Exiftool (hat has already been preinstalled in my kali linux terminal)
