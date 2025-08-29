@@ -21,20 +21,20 @@ image link: https://tryhackme.com/room/ohsint?taskNo=1
 for each questions i'll be giving answers with graphical examples of how i go to the answers
 
 # Attacking the problem
-first of all i obtained the task file: ![taskfile](1.png)(https://github.com/LuckyboyJay/OSINT/blob/339a6b28a5680f4ec8dba3f422bd1deb2eb10e8b/ohsint.jpg)\
+first of all i obtained the task file: (https://github.com/LuckyboyJay/OSINT/blob/339a6b28a5680f4ec8dba3f422bd1deb2eb10e8b/ohsint.jpg)\
 if you tap the above link you will see that the image is a wallpaper from the windows XP with not much to see. but the information needed to solve
 the problem is hidden within this seemingly empty image file.\
 Now you might want to ask; what exactly are we looking for? by perusing the metadata of this image file, we will find the needed infomation to get what we're looking for\
 Another question would be; How do we get this metadata? in OSINT we have different tools for metadata extraction. tools like: Exiftool, Geosetter, PhotoDNA etc. for this challenge, we'll be
 using the Exiftool (that has already been preinstalled in my kali linux terminal).\
-By using exiftool we will get the metadata; https://github.com/LuckyboyJay/OSINT/blob/503ca3384841f27b969d385776c0f3c2ca0cd7ef/1.png \
+By using exiftool we will get the metadata; ![taskfile](1.png) https://github.com/LuckyboyJay/OSINT/blob/503ca3384841f27b969d385776c0f3c2ca0cd7ef/1.png \
 The information gotten from the metadata will be helpfull in solving this challenge
 
 # Question 1: What is this user's avatar of?
 from the information gotten from the metadata, we know this image file is copyrighted to the name " Owoodflint ", a simple google search of the name would bring another list of information that would
 be helpfull in answering this question and the rest that follows.\
-searching the name brings out a list of information that includes; the owners X handle, wordpress page and github account. https://github.com/LuckyboyJay/OSINT/blob/840550dd8544bb750bc2b90d9fe4b766daf328d5/2.png \
-Checking his X(formerly twitter) would automatically show us his profile picture. https://github.com/LuckyboyJay/OSINT/blob/50081a3fcc034c67bbda80970ddd1412b827bb04/3.png this shows his profile in detail, which consist of his profile picture, bio and some few tweet he made \
+searching the name brings out a list of information that includes; the owners X handle, wordpress page and github account. https://github.com/LuckyboyJay/OSINT/![taskfile](2.png)blob/840550dd8544bb750bc2b90d9fe4b766daf328d5/2.png \
+Checking his X(formerly twitter) would automatically show us his profile picture.![taskfile](3.png) https://github.com/LuckyboyJay/OSINT/blob/50081a3fcc034c67bbda80970ddd1412b827bb04/3.png this shows his profile in detail, which consist of his profile picture, bio and some few tweet he made \
 This way we've answered the first question. CAT
 
 # Question 2: What is the SSID of the WAP he connected to?
@@ -42,8 +42,8 @@ To answer this question we need to know what SSID means. SSID (Service Set Ident
 from the information gotten from the metadata, there's no mention of an SSID, neither is it writeen on his  X page, github or wordpress page. but we do find a BSSID (Basic Service Set Identifier), while an SSID is
 a Wi-Fi's name, BSSID is a Wi-Fi's router ID\
 You can use BSSID to get a routers SSID and with the help of WIGLE.net (Users around the world use WiGLE to scan Wi-Fi networks and even cell towers logging details like network names (SSIDs), unique identifiers (BSSIDs), GPS location, and encryption status. All this gets uploaded into the WiGLE database)\
-https://github.com/LuckyboyJay/OSINT/blob/1a1aad8e7990ccabfb78fb4ec3016e94b863788c/6.png \
-https://github.com/LuckyboyJay/OSINT/blob/1a1aad8e7990ccabfb78fb4ec3016e94b863788c/7.png \
+![taskfile](6.png)https://github.com/LuckyboyJay/OSINT/blob/1a1aad8e7990ccabfb78fb4ec3016e94b863788c/6.png \
+![taskfile](7.png)https://github.com/LuckyboyJay/OSINT/blob/1a1aad8e7990ccabfb78fb4ec3016e94b863788c/7.png \
 With the help of WIGLE, the SSID is gotten to UnileverWIFI
 
 # Question 3: What is his personal email address?
