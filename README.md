@@ -21,7 +21,7 @@ image link: https://tryhackme.com/room/ohsint?taskNo=1
 for each questions i'll be giving answers with graphical examples of how i go to the answers
 
 # Attacking the problem
-first of all i obtained the task file: [a](https://github.com/LuckyboyJay/OSINT/blob/339a6b28a5680f4ec8dba3f422bd1deb2eb10e8b/ohsint.jpg)\
+first of all i obtained the task file: ![a](https://github.com/LuckyboyJay/OSINT/blob/339a6b28a5680f4ec8dba3f422bd1deb2eb10e8b/ohsint.jpg)\
 if you tap the above link you will see that the image is a wallpaper from the windows XP with not much to see. but the information needed to solve
 the problem is hidden within this seemingly empty image file.\
 Now you might want to ask; what exactly are we looking for? by perusing the metadata of this image file, we will find the needed infomation to get what we're looking for\
