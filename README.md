@@ -6,7 +6,7 @@ Open-Source Intelligence (OSINT) is the process of collecting publicly available
 
 # What is this challenge about
 an image (windows xp wallpaper) is given to you to find information and give the correct answers to the questions asked(challenge)
-link to the challenge: https://tryhackme.com/room/ohsint
+link to the challenge: https://tryhackme.com/room/ohsint ![taskfile](ohsint.jpg)
 image link: https://tryhackme.com/room/ohsint?taskNo=1
 
 # Questions given to be answered
